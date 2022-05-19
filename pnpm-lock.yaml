@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+specifiers:
+  react-hot-toast: ^2.2.0
+
+dependencies:
+  react-hot-toast: 2.2.0
+
+packages:
+
+  /goober/2.1.9:
+    resolution: {integrity: sha512-PAtnJbrWtHbfpJUIveG5PJIB6Mc9Kd0gimu9wZwPyA+wQUSeOeA4x4Ug16lyaaUUKZ/G6QEH1xunKOuXP1F4Vw==}
+    peerDependencies:
+      csstype: ^3.0.10
+    dev: false
+
+  /react-hot-toast/2.2.0:
+    resolution: {integrity: sha512-248rXw13uhf/6TNDVzagX+y7R8J183rp7MwUMNkcrBRyHj/jWOggfXTGlM8zAOuh701WyVW+eUaWG2LeSufX9g==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      goober: 2.1.9
+    transitivePeerDependencies:
+      - csstype
+    dev: false
